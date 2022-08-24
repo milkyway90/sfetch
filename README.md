@@ -1,2 +1,2 @@
-# snake
-snake game
+# sfetch
+a simple system fetch terminal application
