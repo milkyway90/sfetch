@@ -1,6 +1,4 @@
 const OS = require('node:os');
-//import color from 'chalk';
-//import chalk from 'chalk';
 
 const fetch = {
     hostname: OS.hostname(),
@@ -16,6 +14,3 @@ console.log('\'=/_       \\	    ' + 'OS: ' + fetch.OS);
 console.log(' |  \'=._    |	    ' + 'cpu: ' + fetch.cpu);
 console.log('  \\     `=./`,	    ' + 'cpu architecture: ' + fetch.cpu_architecture);
 console.log('   \'=.__.=\' `=\'     ' + 'memory: ' + Math.round(fetch.free_memory / 1000000) + '/' + Math.round(fetch.allocated_memory / 1000000));
-
-//console.log('asdasd \nasdasddsadsad');
-//console.log(fetch, Math.round(fetch.free_memory / 1000000) + '/' + Math.round(fetch.allocated_memory / 1000000));
